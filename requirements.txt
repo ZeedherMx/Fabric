@@ -1,0 +1,33 @@
+# Core dependencies
+langgraph==0.2.16
+langchain==0.3.0
+langchain-groq==0.2.0
+langchain-community==0.3.0
+langchain-core==0.3.0
+
+# UI and API
+gradio==4.44.0
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.0
+
+# Observability
+opik==0.2.12
+langfuse==2.50.0
+
+# Database and storage
+chromadb==0.5.5
+sqlite3
+
+# Utilities
+python-dotenv==1.0.1
+jinja2==3.1.4
+pyyaml==6.0.2
+docker==7.1.0
+requests==2.32.3
+aiofiles==24.1.0
+
+# Development
+pytest==8.3.2
+black==24.8.0
+flake8==7.1.1
